@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ComposeBookExample</string>
+    <string name="title_activity_compose_local_prac">ComposeLocalPrac</string>
+    <string name="title_activity_compose_local_practice">ComposeLocalPractice</string>
+    <string name="title_activity_slot_practice">SlotPractice</string>
+</resources>
