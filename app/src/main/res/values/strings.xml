@@ -4,4 +4,5 @@
     <string name="title_activity_compose_local_practice">ComposeLocalPractice</string>
     <string name="title_activity_slot_practice">SlotPractice</string>
     <string name="title_activity_slot_api_tutorial">SlotApiTutorial</string>
+    <string name="title_activity_modifier_practice">ModifierPractice</string>
 </resources>
