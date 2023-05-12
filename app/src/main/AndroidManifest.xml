@@ -12,6 +12,11 @@
         android:theme="@style/Theme.ComposeBookExample"
         tools:targetApi="31">
         <activity
+            android:name=".RowColumnPractice"
+            android:exported="false"
+            android:label="@string/title_activity_row_column_practice"
+            android:theme="@style/Theme.ComposeBookExample" />
+        <activity
             android:name=".ModifierPractice"
             android:exported="true"
             android:label="@string/title_activity_modifier_practice"
@@ -27,11 +32,13 @@
             android:exported="true"
             android:label="@string/title_activity_slot_api_tutorial"
             android:theme="@style/Theme.ComposeBookExample">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".SlotPractice"
