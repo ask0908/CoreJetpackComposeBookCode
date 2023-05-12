@@ -9,9 +9,10 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.FirstBaseline
+import androidx.compose.ui.layout.LastBaseline
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -28,6 +29,7 @@ class RowColumnPractice : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
+                    RowColumnMainScreen()
                 }
             }
         }
@@ -36,13 +38,10 @@ class RowColumnPractice : ComponentActivity() {
 
 @Composable
 fun RowColumnMainScreen() {
-    Column(
-        modifier = Modifier.width(250.dp),
-        horizontalAlignment = Alignment.End
-    ) {
-        TextCell(text = "1")
-        TextCell(text = "2")
-        TextCell(text = "3")
+    Row {
+        TextCell(text = "1", modifier = Modifier.weight(weight = .2f, fill = true))
+        TextCell(text = "2", modifier = Modifier.weight(weight = .4f, fill = true))
+        TextCell(text = "3", modifier = Modifier.weight(weight = .3f, fill = true))
     }
 }
 
