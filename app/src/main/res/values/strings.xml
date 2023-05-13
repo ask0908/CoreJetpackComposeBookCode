@@ -6,4 +6,5 @@
     <string name="title_activity_slot_api_tutorial">SlotApiTutorial</string>
     <string name="title_activity_modifier_practice">ModifierPractice</string>
     <string name="title_activity_row_column_practice">RowColumnPractice</string>
+    <string name="title_activity_box_layout_practice">BoxLayoutPractice</string>
 </resources>
