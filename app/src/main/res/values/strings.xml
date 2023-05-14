@@ -9,4 +9,5 @@
     <string name="title_activity_box_layout_practice">BoxLayoutPractice</string>
     <string name="title_activity_custom_layout_modifier_practice">CustomLayoutModifierPractice
     </string>
+    <string name="title_activity_custom_layout_practice">CustomLayoutPractice</string>
 </resources>
