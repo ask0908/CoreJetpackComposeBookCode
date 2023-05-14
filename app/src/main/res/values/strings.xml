@@ -7,4 +7,6 @@
     <string name="title_activity_modifier_practice">ModifierPractice</string>
     <string name="title_activity_row_column_practice">RowColumnPractice</string>
     <string name="title_activity_box_layout_practice">BoxLayoutPractice</string>
+    <string name="title_activity_custom_layout_modifier_practice">CustomLayoutModifierPractice
+    </string>
 </resources>

@@ -12,6 +12,11 @@
         android:theme="@style/Theme.ComposeBookExample"
         tools:targetApi="31">
         <activity
+            android:name=".CustomLayoutModifierPractice"
+            android:exported="false"
+            android:label="@string/title_activity_custom_layout_modifier_practice"
+            android:theme="@style/Theme.ComposeBookExample" />
+        <activity
             android:name=".BoxLayoutPractice"
             android:exported="false"
             android:label="@string/title_activity_box_layout_practice"
