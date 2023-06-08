@@ -12,4 +12,5 @@
     <string name="title_activity_custom_layout_practice">CustomLayoutPractice</string>
     <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
     <string name="title_activity_intrinsic_size">IntrinsicSizeActivity</string>
+    <string name="title_activity_row_column_tutorial">RowColumnTutorialActivity</string>
 </resources>

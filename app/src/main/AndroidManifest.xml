@@ -12,9 +12,9 @@
         android:theme="@style/Theme.ComposeBookExample"
         tools:targetApi="31">
         <activity
-            android:name=".IntrinsicSizeActivity"
+            android:name=".RowColumnTutorialActivity"
             android:exported="true"
-            android:label="@string/title_activity_intrinsic_size"
+            android:label="@string/title_activity_row_column_tutorial"
             android:theme="@style/Theme.ComposeBookExample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,15 +23,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ConstraintLayoutActivity"
+            android:name=".IntrinsicSizeActivity"
             android:exported="true"
-            android:label="@string/title_activity_constraint_layout"
+            android:label="@string/title_activity_intrinsic_size"
             android:theme="@style/Theme.ComposeBookExample">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="true"
+            android:label="@string/title_activity_constraint_layout"
+            android:theme="@style/Theme.ComposeBookExample">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".CustomLayoutPractice"
