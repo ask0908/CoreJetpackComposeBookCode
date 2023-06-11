@@ -13,4 +13,5 @@
     <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
     <string name="title_activity_intrinsic_size">IntrinsicSizeActivity</string>
     <string name="title_activity_row_column_tutorial">RowColumnTutorialActivity</string>
+    <string name="title_activity_lazy_list">LazyListActivity</string>
 </resources>
