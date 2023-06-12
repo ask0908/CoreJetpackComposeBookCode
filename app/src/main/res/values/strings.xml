@@ -15,4 +15,5 @@
     <string name="title_activity_row_column_tutorial">RowColumnTutorialActivity</string>
     <string name="title_activity_lazy_list">LazyListActivity</string>
     <string name="title_activity_animate_visibility">AnimateVisibilityActivity</string>
+    <string name="title_activity_view_model">ViewModelActivity</string>
 </resources>
