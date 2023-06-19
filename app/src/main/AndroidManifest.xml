@@ -14,9 +14,9 @@
         android:theme="@style/Theme.ComposeBookExample"
         tools:targetApi="31">
         <activity
-            android:name=".NavigationActivity"
+            android:name=".BottomNavigationBarActivity"
             android:exported="true"
-            android:label="@string/title_activity_navigation"
+            android:label="@string/title_activity_bottom_navigation_bar"
             android:theme="@style/Theme.ComposeBookExample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,15 +25,28 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RoomActivity"
+            android:name=".NavigationActivity"
             android:exported="true"
-            android:label="@string/title_activity_room"
+            android:label="@string/title_activity_navigation"
             android:theme="@style/Theme.ComposeBookExample">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".RoomActivity"
+            android:exported="true"
+            android:label="@string/title_activity_room"
+            android:theme="@style/Theme.ComposeBookExample">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".ViewModelActivity"
