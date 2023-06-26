@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_list">
+        <item>First Item</item>
+        <item>First Item1</item>
+        <item>First Item2</item>
+        <item>Second Item</item>
+        <item>Second Item2</item>
+        <item>Second Item3</item>
+        <item>Second Item4</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Fifth Item1</item>
+        <item>Fifth Item2</item>
+        <item>Sixth</item>
+        <item>Sixth Item1</item>
+        <item>Sixth Item2</item>
+        <item>Seventh</item>
+        <item>Seventh Item1</item>
+        <item>Seventh Item2</item>
+        <item>Seventh Item3</item>
+    </string-array>
+</resources>

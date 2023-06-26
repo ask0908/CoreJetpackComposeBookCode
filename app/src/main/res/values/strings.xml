@@ -21,4 +21,6 @@
     <string name="title_activity_bottom_navigation_bar">BottomNavigationBarActivity</string>
     <string name="title_activity_gesture">GestureActivity</string>
     <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_flow">FlowActivity</string>
+    <string name="title_activity_test">TestActivity</string>
 </resources>

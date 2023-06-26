@@ -14,9 +14,20 @@
         android:theme="@style/Theme.ComposeBookExample"
         tools:targetApi="31">
         <activity
-            android:name=".SwipeActivity"
+            android:name=".TestActivity"
             android:exported="true"
-            android:label="@string/title_activity_swipe"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.ComposeBookExample">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".FlowActivity"
+            android:exported="true"
+            android:label="@string/title_activity_flow"
             android:theme="@style/Theme.ComposeBookExample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,15 +36,30 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SwipeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_swipe"
+            android:theme="@style/Theme.ComposeBookExample">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
             android:name=".GestureActivity"
             android:exported="true"
             android:label="@string/title_activity_gesture"
             android:theme="@style/Theme.ComposeBookExample">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".BottomNavigationBarActivity"
