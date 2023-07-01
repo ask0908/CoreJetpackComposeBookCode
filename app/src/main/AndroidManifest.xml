@@ -14,26 +14,39 @@
         android:theme="@style/Theme.ComposeBookExample"
         tools:targetApi="31">
         <activity
-            android:name=".TestActivity"
+            android:name=".SharedFlowActivity"
             android:exported="true"
-            android:label="@string/title_activity_test"
-            android:theme="@style/Theme.ComposeBookExample">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-        </activity>
-        <activity
-            android:name=".FlowActivity"
-            android:exported="true"
-            android:label="@string/title_activity_flow"
+            android:label="@string/title_activity_shared_flow"
             android:theme="@style/Theme.ComposeBookExample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".TestActivity"
+            android:exported="true"
+            android:label="@string/title_activity_test"
+            android:theme="@style/Theme.ComposeBookExample">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".FlowActivity"
+            android:exported="true"
+            android:label="@string/title_activity_flow"
+            android:theme="@style/Theme.ComposeBookExample">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <activity
             android:name=".SwipeActivity"
